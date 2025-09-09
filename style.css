@@ -130,3 +130,22 @@ footer{
   transform: translateY(50px)scale(0.8);
   animation:slideIn7sforwards ;
 }
+/* Style About-us section */
+#about-us {
+  background-img: url("Screenshot_20250906-100017.jpg");
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  width: 300px;
+}
+
+#about-us h2 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+#about-us ul {
+  list-style: square;
+  margin-left: 20px;
+  line-height: 1.6;
+}
