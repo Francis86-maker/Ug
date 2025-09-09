@@ -104,13 +104,6 @@ div {
   0%{opacity:0; transform: translateY(50);}
   100%{opacity:1; transform: translateY (0);}
 }
-#About-us {
-  background: url('Screenshot_20250906-100017.jpg');
-  width: 300px;
-  font-size: 20px;
-  color: black;
-  text-align: center;
-}
 #Contact {
   font-size: 19px;
   color: black;
@@ -132,8 +125,9 @@ footer{
 }
 /* Style About-us section */
 #about-us {
-  background-img: url("https://github.com/Francis86-maker/Ug/blob/main/Screenshot_20250909-073214.jpg");
+  background-img: url("Screenshot_20250906-100017.jpg");
   padding: 20px;
+  no-repeat-center: center/cover;
   border-radius: 8px;
   margin: 20px;
   width: 300px;
