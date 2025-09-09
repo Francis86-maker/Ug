@@ -1,0 +1,132 @@
+body {
+  margin: 2px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  line-height: 2;
+}
+h1,h2, h3,h4 {
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 5px;
+   color: gold;
+}
+p {
+  color: yellow;
+  font-size: 15px;
+}
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+nav a{
+  text-decoration: none;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  fontsize: 10px;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+nava:hover {
+  background-color: skyblue;
+  color: black;
+  transform: scale(1.05);
+}
+form {
+  display: block;
+  padding: 20px;
+  text-decoration: pink;
+  max-width: 350px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 4px;
+  background-color: gray;
+  transition: all 0.3s ease;
+}
+form input {
+  width: auto;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 5px solid;
+  background-color: darkgray;
+}
+button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px;
+}
+button:hover {
+  background-color: indianred;
+  color: darkgoldenrod;
+  transform: scale (1.05);
+}
+input:focus {
+  box-shadow: 2px 3px 3px ;
+  outline: hidden;
+  border-color: antiquewhite;
+}
+div {
+  box-shadow: 2px 2px 2px;
+}
+.float-img {
+  width: 300px;
+  display: flex;
+  margin: auto;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100%{ transform: translateY(0);}
+  50%{ transform: translateY(-20px);}
+  
+}
+.slideup {
+  display: block;
+  width: 300px;
+  max-width: 350px;
+  border-radius: 5px;
+  opacity: 1;
+  animation: slideup 3s forwards;
+  transform: translateY(20px);
+}
+@keyframes slideup {
+  0%{opacity:0; transform: translateY(50);}
+  100%{opacity:1; transform: translateY (0);}
+}
+#About-us {
+  background: url('');
+  width: 300px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+#Contact {
+  font-size: 19px;
+  color: black;
+  background-color: white;
+}
+footer{
+  margin-bottom: 10px;
+  margin-left: 59px;
+  background-color: grey;
+  color: black;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.animated-slide{
+  opacity: 1;
+  transform: translateY(50px)scale(0.8);
+  animation:slideIn7sforwards ;
+}
