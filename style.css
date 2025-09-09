@@ -132,7 +132,7 @@ footer{
 }
 /* Style About-us section */
 #about-us {
-  background-img: url("Screenshot_20250906-100017.jpg");
+  background-img: url("https://github.com/Francis86-maker/Ug/blob/main/Screenshot_20250909-073214.jpg");
   padding: 20px;
   border-radius: 8px;
   margin: 20px;
@@ -140,7 +140,7 @@ footer{
 }
 
 #about-us h2 {
-  color: #0077b6;
+  color: blue;
   margin-bottom: 10px;
 }
 
